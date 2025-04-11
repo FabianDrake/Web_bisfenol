@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisfenol</title>
+    <link rel="stylesheet" href="/styles/styles.css"> <!-- Puedes crear un archivo CSS aparte -->
+    <style>
+        @media (max-width: 600px) {
+            .cards-electro-container {
+                flex-direction: column; /* Stack cards vertically */
+                align-items: center; /* Center-align content */
+            }
+
+            .cards-electro {
+                width: 100%; /* Full width for cards */
+                margin-bottom: 20px; /* Add spacing between cards */
+            }
+
+            .cards-electro-image {
+                width: 100%; /* Full width for images */
+                text-align: center; /* Center-align images */
+            }
+
+            .cards-electro-image img {
+                max-width: 90%; /* Reduce image size */
+                height: auto; /* Maintain aspect ratio */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="electrolitos-background">
+        <header class="header">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../img/logo.jpg" alt="Logo de la marca">
+                    </a>
+                </div>
+                <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="hamburger-menu hidden">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="bisfenol.html">Bisfenol</a></li>
+                        <li><a href="alternativas.html">Alternativas</a></li>
+                        <li><a href="antecedentes.html">Antecedentes</a></li>
+                        <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="bisfenol.html">Bisfenol</a></li>
+                    <li><a href="alternativas.html">Alternativas</a></li>
+                    <li><a href="antecedentes.html">Antecedentes</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br><br><br><br>
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1 style="text-align: center;">Bisfenol</h1> <br>
+                    <h1>Alternativas y Recomendaciones</h1>
+                </div>
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Evitar biberones de plástico transparente o recipientes con el número 7 de reciclaje, así como las letras “PC” impresas en los mismos. Varios contienen BPA.
+                        Utilizar biberones plásticos certificados o identificados como libres de BPA.
+                        Biberones hechos de plástico opaco. Estos biberones (hechos de polietileno o polipropileno) no contienen BPA. También puede buscar los símbolos de reciclaje con el número 2 o 5. 
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/biberon_plastico.png" alt="Imagen de referencia">
+                </div>
+            </div>
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Optar por biberones de vidrio puede ser una alternativa, teniendo en cuenta el riesgo de lesión para usted o su bebé si se cae o rompe el biberón. Son una excelente opción ya que no contienen BPA ni otros compuestos químicos. Además, son fáciles de limpiar y duraderos.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/biberon_vidrio.jpg" alt="Imagen de referencia">
+                </div>
+            </div>
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Debido al calor que puede liberar el BPA del plástico, considerar los siguientes puntos: <br> <br>
+                        <strong>No hierva los biberones de policarbonato</strong> <br>
+                        <strong>No caliente los biberones de policarbonato en el microondas </strong><br>
+                        <strong>No lave los biberones de policarbonato en el lavaplatos </strong><br> <br>
+                        Los biberones de acero inoxidable son seguros y no reaccionan con los alimentos ni las bebidas. También son muy duraderos y resistentes. <br>
+                        Biberones de silicona: La silicona es un material flexible y seguro para los bebés. Estos biberones son fáciles de limpiar y no contienen BPA.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1 style="text-align: center;"></h1>
+                    <h1>Ingestión de BPA</h1>
+                </div>
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Contacto directo con alimentos y líquidos: Cuando un biberón o mamila que contiene BPA se utiliza para almacenar o alimentar líquidos, el BPA puede migrar del plástico al contenido. Este proceso de migración puede ser más significativo si el recipiente se calienta o si los alimentos son grasos.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/biberon_lleno.jpeg" alt="Imagen de referencia">
+                </div>
+            </div>
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Calentamiento: Calentar los biberones y mamilas de plástico que contienen BPA, especialmente en el microondas o al verter líquidos calientes, puede aumentar la liberación de BPA. El calor acelera el proceso de descomposición del plástico, lo que facilita la migración del BPA hacia el líquido o alimento.
+                    </p>
+                </div>
+                <br>
+                <div class="cards-electro-image">
+                    <img src="../img/biberon_hervido.jpg" alt="Imagen de referencia">
+                </div>
+            </div>
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Uso y desgaste: Con el tiempo, el uso repetido y el desgaste de los biberones y mamilas pueden causar pequeñas grietas y abrasiones en el plástico. Estas áreas dañadas son más propensas a liberar BPA cuando entran en contacto con líquidos o alimentos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

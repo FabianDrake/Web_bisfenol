@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisfenol</title>
+    <link rel="stylesheet" href="styles/styles.css"> <!-- Puedes crear un archivo CSS aparte -->
+    <style>
+        @media (max-width: 600px) {
+            .content-wrapper h1 {
+                font-size: 1.5rem; /* Smaller title size for small devices */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .content-wrapper h1 {
+                font-size: 1.2rem; /* Further smaller title size for very small devices */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../img/logo.jpg" alt="Logo de la marca">
+                </a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="hamburger-menu hidden">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="bisfenol.html">Bisfenol</a></li>
+                    <li><a href="alternativas.html">Alternativas</a></li>
+                    <li><a href="antecedentes.html">Antecedentes</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="bisfenol.html">Bisfenol</a></li>
+                <li><a href="alternativas.html">Alternativas</a></li>
+                <li><a href="antecedentes.html">Antecedentes</a></li>
+                <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Pestaña de bienvenida -->
+    <div class="welcome-tab">
+        <div class="card">
+            <div class="welcome-content">
+                <!-- Wrap content inside a container -->
+                <div class="content-wrapper">
+                    <h1>Página web educativa sobre el bisfenol a (bpa) en mamilas y biberones: qué es, sus efectos y alternativas seguras.</h1>
+                    <p>Explora nuestra web para aprender más sobre el Bisfenol, sus efectos, precauciones y alternativas.</p>
+                    <img src="../img/img1.png" alt="Imagen de bienvenida" class="welcome-image">
+                </div>
+                <h2>Bienvenidos</h2>
+                <p>
+                    Esta página ha sido desarrollada con el propósito de informar a la población sobre qué es el BPA, sus posibles efectos en la salud infantil y las alternativas más seguras disponibles en el mercado.
+                </p>
+                <p>
+                    El cuidado y la salud de los niños pequeños y bebés es una prioridad fundamental para padres, madres y educadores. En los últimos años, ha surgido una creciente preocupación sobre el uso de ciertos compuestos químicos en productos infantiles, como el Bisfenol A (BPA), presente comúnmente en mamilas y biberones.
+                </p>
+                <p><em>"La salud es la mayor posesión. La alegría es el mayor tesoro."</em></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

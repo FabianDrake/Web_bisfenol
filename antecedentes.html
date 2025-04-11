@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisfenol</title>
+    <link rel="stylesheet" href="/styles/styles.css"> <!-- Puedes crear un archivo CSS aparte -->
+    <style>
+        @media (max-width: 600px) {
+            .cards-electro-container {
+                flex-direction: column; /* Stack cards vertically */
+                align-items: center; /* Center-align content */
+            }
+
+            .cards-electro {
+                width: 100%; /* Full width for cards */
+                margin-bottom: 20px; /* Add spacing between cards */
+            }
+
+            .cards-electro-image {
+                width: 100%; /* Full width for images */
+                text-align: center; /* Center-align images */
+            }
+
+            .cards-electro-image img {
+                max-width: 90%; /* Reduce image size */
+                height: auto; /* Maintain aspect ratio */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="electrolitos-background">
+        <header class="header">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../img/logo.jpg" alt="Logo de la marca">
+                    </a>
+                </div>
+                <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="hamburger-menu hidden">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="bisfenol.html">Bisfenol</a></li>
+                        <li><a href="alternativas.html">Alternativas</a></li>
+                        <li><a href="antecedentes.html">Antecedentes</a></li>
+                        <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="bisfenol.html">Bisfenol</a></li>
+                    <li><a href="alternativas.html">Alternativas</a></li>
+                    <li><a href="antecedentes.html">Antecedentes</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <br><br><br><br>
+
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <h1 style="text-align: center;">Bisfenol</h1> <br>
+                    <h1>Antecedentes</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        La exposición al BPA se ha relacionado con diversos problemas en el desarrollo y la salud de niños y niñas: <br> <br>
+
+                        <strong>Comportamiento:</strong>
+                        Hiperactividad, déficit de atención, ansiedad, depresión y agresividad. <br>
+                        <strong>Crecimiento y desarrollo:</strong>
+                        Problemas en el desarrollo reproductivo, pubertad temprana y retraso en el crecimiento. <br>
+
+                        <strong>Metabolismo: </strong>
+                        Mayor riesgo de obesidad, resistencia a la insulina y problemas en el manejo de la glucosa. <br>
+                        <strong>Corazón y vasos sanguíneos:</strong>
+                        Presión arterial alta y alteraciones en los vasos sanguíneos. <br>
+
+                        <strong>Cerebro y aprendizaje:</strong>
+                        Dificultades cognitivas, problemas de memoria, aprendizaje y lenguaje. <br>
+
+                        <strong>Sistema inmune:</strong>
+                        Más propenso a infecciones y alergias.
+                    </p>
+                </div>
+                <br>
+            </div>
+
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Estas manifestaciones pueden variar en severidad dependiendo de la cantidad de exposición al BPA y la duración de la misma. Los síntomas pueden no ser inmediatamente obvios y pueden desarrollarse con el tiempo. Además, los efectos pueden ser más pronunciados en niños que estuvieron expuestos al BPA durante el desarrollo fetal o en las primeras etapas de la infancia.
+                    </p>
+                </div>
+                <br>
+            </div>
+
+            <div class="cards-electro-container">
+                <div class="cards-electro">
+                    <p>
+                        Para minimizar estos riesgos, es importante reducir la exposición al BPA en la vida diaria. Optar por productos libres de BPA y evitar el calentamiento de alimentos y líquidos en recipientes de plástico que contengan este químico son buenas prácticas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

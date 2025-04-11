@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure responsiveness -->
+    <title>Bisfenol</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body class="welcome-tab"> <!-- Apply the wooden background -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../img/logo.jpg" alt="Logo de la marca">
+                </a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="hamburger-menu hidden">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="bisfenol.html">Bisfenol</a></li>
+                    <li><a href="alternativas.html">Alternativas</a></li>
+                    <li><a href="antecedentes.html">Antecedentes</a></li>
+                    <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="bisfenol.html">Bisfenol</a></li>
+                <li><a href="alternativas.html">Alternativas</a></li>
+                <li><a href="antecedentes.html">Antecedentes</a></li>
+                <li><a href="quiz.html" class="contact-link">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de la Card -->
+    <div class="container">
+        <div class="card">
+            <h2>Objetivo</h2>
+            <p>
+                El objetivo principal de este proyecto es desarrollar una página educativa dirigida a informar a la población tales como: educadores, madres y padres sobre la presencia de bisfenol a (bpa) en el uso de biberones y mamilas. La plataforma ayudará a identificar los posibles efectos en la salud derivados de su uso diario y ofrecerá alternativas seguras para el bienestar de los menores. se busca garantizar que los padres tengan acceso a información clara y práctica sobre cómo evitar el bpa en productos infantiles, con el fin de minimizar cualquier riesgo potencial.
+            </p>
+            <img src="../img/biberon.png" alt="Imagen sitioweb" class="nos-image">
+        </div>
+        <div class="card">
+            <h2>Acerca de Nosotros</h2>
+            <p>
+                Somos un grupo de estudiantes de la licenciatura en Químico Farmacéutico Biólogo (QFB) de la Universidad UTEG, motivados por nuestra pasión por la ciencia. En este sitio nos dedicamos a proporcionar información sobre Bisfenol en las mamilas.
+            </p>
+            <img src="../img/logo.jpg" alt="Imagen logo" class="nos-image">
+        </div>
+        <div class="card">
+            <h2>Objetivo General</h2>
+            <p>
+                Desarrollar una página para informar a la población especialmente a educadores, madres y padres sobre qué es el bisfenol A (BPA), sus posibles efectos en la salud y promover alternativas seguras para proteger el bienestar de los niños pequeños y bebés.
+            </p>
+            <img src="../img/altoparlante.png" alt="Imagen logo" class="nos-image">
+        </div>
+        <div class="card">
+            <h2>Integrantes</h2>
+            <p>
+                MONTAÑO DAVALOS PEDRO LUIS <br>
+                ROBERTO MORA RAMOS SAUL FROYLAN <br>
+                NUÑEZ RAYGOZA SERGIO IVAN <br>
+                <img src="../img/reunion.png" alt="Imagen logo" class="nos-image">
+            </p>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
